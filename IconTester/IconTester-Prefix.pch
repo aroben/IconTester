@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'IconTester' target in the 'IconTester' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
