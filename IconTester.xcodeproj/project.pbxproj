@@ -112,6 +112,7 @@
 				C0A8E35117341CCD00FE9603 /* Sources */,
 				C0A8E35217341CCD00FE9603 /* Frameworks */,
 				C0A8E35317341CCD00FE9603 /* Resources */,
+				C0A8E375173422FB00FE9603 /* Print env */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0A8E375173422FB00FE9603 /* Print env */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Print env";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = env;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C0A8E35117341CCD00FE9603 /* Sources */ = {
